@@ -138,11 +138,442 @@ Config = {
 		["beer6"] = {"mp_player_intdrink", "loop_bottle", "Pisswasser3", AnimationOptions =
 			{ Prop = "prop_cs_beer_bot_02", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
 				EmoteMoving = true, EmoteLoop = true, }},
-		["ecola"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
-			{ Prop = "prop_ecola_can", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
-				EmoteMoving = true, EmoteLoop = true, }},
 		["sprunk"] = {"mp_player_intdrink", "loop_bottle", "Sprunk", AnimationOptions =
 			{ Prop = "v_res_tt_can03", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
 				EmoteMoving = true, EmoteLoop = true, }},
+		["milk"] = {"mp_player_intdrink", "loop_bottle", "Milk", AnimationOptions =
+    		{    Prop = "v_res_tt_milk", PropBone = 18905, PropPlacement = {0.10, 0.008, 0.07, 240.0, -60.0},
+         EmoteMoving = true, EmoteLoop = true, }},
+  		["bscoke"] = {"mp_player_intdrink", "loop_bottle", "BS Coke", AnimationOptions =
+ 			{    Prop = "prop_food_bs_juice01", PropBone = 18905, PropPlacement = {0.04, -0.10, 0.10, 240.0, -60.0},
+         EmoteMoving = true, EmoteLoop = true, }},
+    	["bscoffee"] = {"mp_player_intdrink", "loop_bottle", "BS Coffee", AnimationOptions =
+    		{    Prop = "prop_food_bs_coffee", PropBone = 18905, PropPlacement = {0.08, -0.10, 0.10, 240.0, -60.0},
+         EmoteMoving = true, EmoteLoop = true, }},
+    	["glass"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Tall Glass", AnimationOptions =
+    		{   Prop = 'prop_wheat_grass_glass', PropBone = 28422, PropPlacement = {0.0, 0.0, -0.1, 0.0, 0.0, 0.0},
+        EmoteLoop = true, EmoteMoving = true, }},
+ 
+    	["torpedo"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger_fp", "Torpedo", AnimationOptions =
+    		{    Prop = "prop_food_bs_burger2", PropBone = 18905, PropPlacement = {0.10, -0.07, 0.091, 15.0, 135.0},
+         EmoteMoving = true, EmoteLoop = true, }},
+    	["bsfries"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger_fp", "Fries", AnimationOptions =
+    		{    Prop = "prop_food_bs_chips", PropBone = 18905, PropPlacement = {0.09, -0.06, 0.05, 300.0, 150.0},
+         EmoteMoving = true, EmoteLoop = true, }},
+    	["donut2"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "Donut2", AnimationOptions =
+    		{   Prop = 'prop_donut_02', PropBone = 18905, PropPlacement = {0.13, 0.05, 0.02, -50.0, 100.0, 270.0},
+        EmoteMoving = true, EmoteLoop = true, }},
+        ["ecola"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+			{ Prop = "prop_ecola_can", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+		EmoteMoving = true, EmoteLoop = true, }},
+		["bmcoffee1"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Coffee2", AnimationOptions =
+			{ Prop = 'prop_fib_coffee', PropBone = 28422, PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+	   EmoteLoop = true, EmoteMoving = true, }},
+		["bmcoffee2"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Coffee3", AnimationOptions =
+			{ Prop = 'ng_proc_coffee_01a', PropBone = 28422, PropPlacement = {0.0, 0.0, -0.06, 0.0, 0.0, 0.0},
+	   EmoteLoop = true, EmoteMoving = true, }},
+		["bmcoffee3"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Coffee3", AnimationOptions =
+			{ Prop = 'v_club_vu_coffeecup', PropBone = 28422, PropPlacement = {0.0, 0.0, -0.06, 0.0, 0.0, 0.0},
+	   EmoteLoop = true, EmoteMoving = true, }},
+	   ["notepad"] = {"missheistdockssetup1clipboard@base", "base", "Notepad", AnimationOptions =
+	   		{
+		   Prop = 'prop_notepad_01',
+		   PropBone = 18905,
+		   PropPlacement = {0.1, 0.02, 0.05, 10.0, 0.0, 0.0},
+		   SecondProp = 'prop_pencil_01',
+		   SecondPropBone = 58866,
+		   SecondPropPlacement = {0.11, -0.02, 0.001, -120.0, 0.0, 0.0},
+		   -- EmoteLoop is used for emotes that should loop, its as simple as that.
+		   -- Then EmoteMoving is used for emotes that should only play on the upperbody.
+		   -- The code then checks both values and sets the MovementType to the correct one
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["box"] = {"anim@heists@box_carry@", "idle", "Box", AnimationOptions =
+	   {
+		   Prop = "hei_prop_heist_box",
+		   PropBone = 60309,
+		   PropPlacement = {0.025, 0.08, 0.255, -145.0, 290.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["weedbox"] = {"anim@heists@box_carry@", "idle", "Box", AnimationOptions =
+	   {
+		   Prop = "hei_prop_heist_weed_block_01",
+		   PropBone = 28422,
+		   PropPlacement = {0.01, -0.07, -0.11, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["rose"] = {"anim@heists@humane_labs@finale@keycards", "ped_a_enter_loop", "Rose", AnimationOptions =
+	   {
+		   Prop = "prop_single_rose",
+		   PropBone = 18905,
+		   PropPlacement = {0.13, 0.15, 0.0, -100.0, 0.0, -20.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["smoke2"] = {"amb@world_human_aa_smoke@male@idle_a", "idle_c", "Smoke 2", AnimationOptions =
+	   {
+		   Prop = 'prop_cs_ciggy_01',
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["smoke3"] = {"amb@world_human_aa_smoke@male@idle_a", "idle_b", "Smoke 3", AnimationOptions =
+	   {
+		   Prop = 'prop_cs_ciggy_01',
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["smoke4"] = {"amb@world_human_smoking@female@idle_a", "idle_b", "Smoke 4", AnimationOptions =
+	   {
+		   Prop = 'prop_cs_ciggy_01',
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["bong"] = {"anim@safehouse@bong", "bong_stage3", "Bong", AnimationOptions =
+	   {
+		   Prop = 'hei_heist_sh_bong_01',
+		   PropBone = 18905,
+		   PropPlacement = {0.10,-0.25,0.0,95.0,190.0,180.0},
+	   }},
+	   ["suitcase"] = {"missheistdocksprep1hold_cellphone", "static", "Suitcase", AnimationOptions =
+	   {
+		   Prop = "prop_ld_suitcase_01",
+		   PropBone = 57005,
+		   PropPlacement = {0.39, 0.0, 0.0, 0.0, 266.0, 60.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["suitcase2"] = {"missheistdocksprep1hold_cellphone", "static", "Suitcase 2", AnimationOptions =
+	   {
+		   Prop = "prop_security_case_01",
+		   PropBone = 57005,
+		   PropPlacement = {0.10, 0.0, 0.0, 0.0, 280.0, 53.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["mugshot"] = {"mp_character_creation@customise@male_a", "loop", "Mugshot", AnimationOptions =
+	   {
+		   Prop = 'prop_police_id_board',
+		   PropBone = 58868,
+		   PropPlacement = {0.12, 0.24, 0.0, 5.0, 0.0, 70.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["coffee"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Coffee", AnimationOptions =
+	   {
+		   Prop = 'p_amb_coffeecup_01',
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["whiskey"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Whiskey", AnimationOptions =
+	   {
+		   Prop = 'prop_drink_whisky',
+		   PropBone = 28422,
+		   PropPlacement = {0.01, -0.01, -0.06, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["beer"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Beer", AnimationOptions =
+	   {
+		   Prop = 'prop_amb_beer_bottle',
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["cup"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Cup", AnimationOptions =
+	   {
+		   Prop = 'prop_plastic_cup_02',
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["donut"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "Donut", AnimationOptions =
+	   {
+		   Prop = 'prop_amb_donut',
+		   PropBone = 18905,
+		   PropPlacement = {0.13, 0.05, 0.02, -50.0, 16.0, 60.0},
+		   EmoteMoving = true,
+	   }},
+	   ["burger"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "Burger", AnimationOptions =
+	   {
+		   Prop = 'prop_cs_burger_01',
+		   PropBone = 18905,
+		   PropPlacement = {0.13, 0.05, 0.02, -50.0, 16.0, 60.0},
+		   EmoteMoving = true,
+	   }},
+	   ["sandwich"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "Sandwich", AnimationOptions =
+	   {
+		   Prop = 'prop_sandwich_01',
+		   PropBone = 18905,
+		   PropPlacement = {0.13, 0.05, 0.02, -50.0, 16.0, 60.0},
+		   EmoteMoving = true,
+	   }},
+	   ["soda"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Soda", AnimationOptions =
+	   {
+		   Prop = 'prop_ecola_can',
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 130.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["egobar"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger", "Ego Bar", AnimationOptions =
+	   {
+		   Prop = 'prop_choc_ego',
+		   PropBone = 60309,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteMoving = true,
+	   }},
+	   ["wine"] = {"anim@heists@humane_labs@finale@keycards", "ped_a_enter_loop", "Wine", AnimationOptions =
+	   {
+		   Prop = 'prop_drink_redwine',
+		   PropBone = 18905,
+		   PropPlacement = {0.10, -0.03, 0.03, -100.0, 0.0, -10.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["flute"] = {"anim@heists@humane_labs@finale@keycards", "ped_a_enter_loop", "Flute", AnimationOptions =
+	   {
+		   Prop = 'prop_champ_flute',
+		   PropBone = 18905,
+		   PropPlacement = {0.10, -0.03, 0.03, -100.0, 0.0, -10.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["champagne"] = {"anim@heists@humane_labs@finale@keycards", "ped_a_enter_loop", "Champagne", AnimationOptions =
+	   {
+		   Prop = 'prop_drink_champ',
+		   PropBone = 18905,
+		   PropPlacement = {0.10, -0.03, 0.03, -100.0, 0.0, -10.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["cigar"] = {"amb@world_human_smoking@male@male_a@enter", "enter", "Cigar", AnimationOptions =
+	   {
+		   Prop = 'prop_cigar_02',
+		   PropBone = 47419,
+		   PropPlacement = {0.010, 0.0, 0.0, 50.0, 0.0, -80.0},
+		   EmoteMoving = true,
+		   EmoteDuration = 2600
+	   }},
+	   ["cigar2"] = {"amb@world_human_smoking@male@male_a@enter", "enter", "Cigar 2", AnimationOptions =
+	   {
+		   Prop = 'prop_cigar_01',
+		   PropBone = 47419,
+		   PropPlacement = {0.010, 0.0, 0.0, 50.0, 0.0, -80.0},
+		   EmoteMoving = true,
+		   EmoteDuration = 2600
+	   }},
+	   ["guitar"] = {"amb@world_human_musician@guitar@male@idle_a", "idle_b", "Guitar", AnimationOptions =
+	   {
+		   Prop = 'prop_acc_guitar_01',
+		   PropBone = 24818,
+		   PropPlacement = {-0.1, 0.31, 0.1, 0.0, 20.0, 150.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["guitar2"] = {"switch@trevor@guitar_beatdown", "001370_02_trvs_8_guitar_beatdown_idle_busker", "Guitar 2", AnimationOptions =
+	   {
+		   Prop = 'prop_acc_guitar_01',
+		   PropBone = 24818,
+		   PropPlacement = {-0.05, 0.31, 0.1, 0.0, 20.0, 150.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["guitarelectric"] = {"amb@world_human_musician@guitar@male@idle_a", "idle_b", "Guitar Electric", AnimationOptions =
+	   {
+		   Prop = 'prop_el_guitar_01',
+		   PropBone = 24818,
+		   PropPlacement = {-0.1, 0.31, 0.1, 0.0, 20.0, 150.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["guitarelectric2"] = {"amb@world_human_musician@guitar@male@idle_a", "idle_b", "Guitar Electric 2", AnimationOptions =
+	   {
+		   Prop = 'prop_el_guitar_03',
+		   PropBone = 24818,
+		   PropPlacement = {-0.1, 0.31, 0.1, 0.0, 20.0, 150.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["book"] = {"cellphone@", "cellphone_text_read_base", "Book", AnimationOptions =
+	   {
+		   Prop = 'prop_novel_01',
+		   PropBone = 6286,
+		   PropPlacement = {0.15, 0.03, -0.065, 0.0, 180.0, 90.0}, -- This positioning isnt too great, was to much of a hassle
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["bouquet"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "Bouquet", AnimationOptions =
+	   {
+		   Prop = 'prop_snow_flower_02',
+		   PropBone = 24817,
+		   PropPlacement = {-0.29, 0.40, -0.02, -90.0, -90.0, 0.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["teddy"] = {"impexp_int-0", "mp_m_waremech_01_dual-0", "Teddy", AnimationOptions =
+	   {
+		   Prop = 'v_ilev_mr_rasberryclean',
+		   PropBone = 24817,
+		   PropPlacement = {-0.20, 0.46, -0.016, -180.0, -90.0, 0.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["backpack"] = {"move_p_m_zero_rucksack", "idle", "Backpack", AnimationOptions =
+	   {
+		   Prop = 'p_michael_backpack_s',
+		   PropBone = 24818,
+		   PropPlacement = {0.07, -0.11, -0.05, 0.0, 90.0, 175.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["clipboard"] = {"missfam4", "base", "Clipboard", AnimationOptions =
+	   {
+		   Prop = 'p_amb_clipboard_01',
+		   PropBone = 36029,
+		   PropPlacement = {0.16, 0.08, 0.1, -130.0, -50.0, 0.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["map"] = {"amb@world_human_tourist_map@male@base", "base", "Map", AnimationOptions =
+	   {
+		   Prop = 'prop_tourist_map_01',
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true
+	   }},
+	   ["beg"] = {"amb@world_human_bum_freeway@male@base", "base", "Beg", AnimationOptions =
+	   {
+		   Prop = 'prop_beggers_sign_03',
+		   PropBone = 58868,
+		   PropPlacement = {0.19, 0.18, 0.0, 5.0, 0.0, 40.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["makeitrain"] = {"anim@mp_player_intupperraining_cash", "idle_a", "Make It Rain", AnimationOptions =
+	   {
+		   Prop = 'prop_anim_cash_pile_01',
+		   PropBone = 60309,
+		   PropPlacement = {0.0, 0.0, 0.0, 180.0, 0.0, 70.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true,
+		   PtfxAsset = "scr_xs_celebration",
+		   PtfxName = "scr_xs_money_rain",
+		   PtfxPlacement = {0.0, 0.0, -0.09, -80.0, 0.0, 0.0, 1.0},
+		   PtfxInfo = Config.Languages[Config.MenuLanguage]['makeitrain'],
+		   PtfxWait = 500,
+	   }},
+	   ["camera"] = {"amb@world_human_paparazzi@male@base", "base", "Camera", AnimationOptions =
+	   {
+		   Prop = 'prop_pap_camera_01',
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+		   PtfxAsset = "scr_bike_business",
+		   PtfxName = "scr_bike_cfid_camera_flash",
+		   PtfxPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0},
+		   PtfxInfo = Config.Languages[Config.MenuLanguage]['camera'],
+		   PtfxWait = 200,
+	   }},
+	   ["champagnespray"] = {"anim@mp_player_intupperspray_champagne", "idle_a", "Champagne Spray", AnimationOptions =
+	   {
+		   Prop = 'ba_prop_battle_champ_open',
+		   PropBone = 28422,
+		   PropPlacement = {0.0,0.0,0.0,0.0,0.0,0.0},
+		   EmoteMoving = true,
+		   EmoteLoop = true,
+		   PtfxAsset = "scr_ba_club",
+		   PtfxName = "scr_ba_club_champagne_spray",
+		   PtfxPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   PtfxInfo = Config.Languages[Config.MenuLanguage]['spraychamp'],
+		   PtfxWait = 500,
+	   }},
+	   ["joint"] = {"amb@world_human_smoking@male@male_a@enter", "enter", "Joint", AnimationOptions =
+	   {
+		   Prop = 'p_cs_joint_02',
+		   PropBone = 47419,
+		   PropPlacement = {0.015, -0.009, 0.003, 55.0, 0.0, 110.0},
+		   EmoteMoving = true,
+		   EmoteDuration = 2600
+	   }},
+	   ["cig"] = {"amb@world_human_smoking@male@male_a@enter", "enter", "Cig", AnimationOptions =
+	   {
+		   Prop = 'prop_amb_ciggy_01',
+		   PropBone = 47419,
+		   PropPlacement = {0.015, -0.009, 0.003, 55.0, 0.0, 110.0},
+		   EmoteMoving = true,
+		   EmoteDuration = 2600
+	   }},
+	   ["brief3"] = {"missheistdocksprep1hold_cellphone", "static", "Brief 3", AnimationOptions =
+	   {
+		   Prop = "prop_ld_case_01",
+		   PropBone = 57005,
+		   PropPlacement = {0.10, 0.0, 0.0, 0.0, 280.0, 53.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["tablet"] = {"amb@world_human_tourist_map@male@base", "base", "Tablet", AnimationOptions =
+	   {
+		   Prop = "prop_cs_tablet",
+		   PropBone = 28422,
+		   PropPlacement = {0.0, -0.03, 0.0, 20.0, -90.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["tablet2"] = {"amb@code_human_in_bus_passenger_idles@female@tablet@idle_a", "idle_a", "Tablet 2", AnimationOptions =
+	   {
+		   Prop = "prop_cs_tablet",
+		   PropBone = 28422,
+		   PropPlacement = {-0.05, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["phonecall"] = {"cellphone@", "cellphone_call_listen_base", "Phone Call", AnimationOptions =
+	   {
+		   Prop = "prop_npc_phone_02",
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["phone"] = {"cellphone@", "cellphone_text_read_base", "Phone", AnimationOptions =
+	   {
+		   Prop = "prop_npc_phone_02",
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["clean"] = {"timetable@floyd@clean_kitchen@base", "base", "Clean", AnimationOptions =
+	   {
+		   Prop = "prop_sponge_01",
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, -0.01, 90.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+	   ["clean2"] = {"amb@world_human_maid_clean@", "base", "Clean 2", AnimationOptions =
+	   {
+		   Prop = "prop_sponge_01",
+		   PropBone = 28422,
+		   PropPlacement = {0.0, 0.0, -0.01, 90.0, 0.0, 0.0},
+		   EmoteLoop = true,
+		   EmoteMoving = true,
+	   }},
+
 	},
 }
