@@ -44,7 +44,7 @@ Config = {
 		--["crackbaggy"] = { 		emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { effect = "heal", widepupils = false, canOD = true } },
 		["xtcbaggy"] = { 		emote = "oxy",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "strength", widepupils = true, canOD = true } },
 		["oxy"] = { 			emote = "oxy",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { effect = "heal", widepupils = false, canOD = false } },
-		["meth"] = { 			emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "stamina", widepupils = false, canOD = true } },
+		-- Handled by boii drugs["meth"] = { 			emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "stamina", widepupils = true, canOD = true } },
 		----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 		----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -141,6 +141,11 @@ Config = {
 		["sprunk"] = {"mp_player_intdrink", "loop_bottle", "Sprunk", AnimationOptions =
 			{ Prop = "v_res_tt_can03", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
 				EmoteMoving = true, EmoteLoop = true, }},
+		--Drugs
+		["coke"] = { "switch@trevor@trev_smoking_meth", "trev_smoking_meth_loop", "Coke", AnimationOptions =
+			{ EmoteLoop = true, EmoteMoving = true, }},
+		["oxy"] = { "mp_suicide", "pill", "Oxy", AnimationOptions =
+			{ EmoteLoop = true, EmoteMoving = true, }},
 		["milk"] = {"mp_player_intdrink", "loop_bottle", "Milk", AnimationOptions =
     		{    Prop = "v_res_tt_milk", PropBone = 18905, PropPlacement = {0.10, 0.008, 0.07, 240.0, -60.0},
          EmoteMoving = true, EmoteLoop = true, }},
@@ -153,7 +158,6 @@ Config = {
     	["glass"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Tall Glass", AnimationOptions =
     		{   Prop = 'prop_wheat_grass_glass', PropBone = 28422, PropPlacement = {0.0, 0.0, -0.1, 0.0, 0.0, 0.0},
         EmoteLoop = true, EmoteMoving = true, }},
- 
     	["torpedo"] = {"mp_player_inteat@burger", "mp_player_int_eat_burger_fp", "Torpedo", AnimationOptions =
     		{    Prop = "prop_food_bs_burger2", PropBone = 18905, PropPlacement = {0.10, -0.07, 0.091, 15.0, 135.0},
          EmoteMoving = true, EmoteLoop = true, }},
@@ -175,28 +179,9 @@ Config = {
 		["bmcoffee3"] = {"amb@world_human_drinking@coffee@male@idle_a", "idle_c", "Coffee3", AnimationOptions =
 			{ Prop = 'v_club_vu_coffeecup', PropBone = 28422, PropPlacement = {0.0, 0.0, -0.06, 0.0, 0.0, 0.0},
 	   EmoteLoop = true, EmoteMoving = true, }},
-	   ["notepad"] = {"missheistdockssetup1clipboard@base", "base", "Notepad", AnimationOptions =
-	   		{
-		   Prop = 'prop_notepad_01',
-		   PropBone = 18905,
-		   PropPlacement = {0.1, 0.02, 0.05, 10.0, 0.0, 0.0},
-		   SecondProp = 'prop_pencil_01',
-		   SecondPropBone = 58866,
-		   SecondPropPlacement = {0.11, -0.02, 0.001, -120.0, 0.0, 0.0},
-		   -- EmoteLoop is used for emotes that should loop, its as simple as that.
-		   -- Then EmoteMoving is used for emotes that should only play on the upperbody.
-		   -- The code then checks both values and sets the MovementType to the correct one
-		   EmoteLoop = true,
-		   EmoteMoving = true,
-	   }},
 	   ["box"] = {"anim@heists@box_carry@", "idle", "Box", AnimationOptions =
-	   {
-		   Prop = "hei_prop_heist_box",
-		   PropBone = 60309,
-		   PropPlacement = {0.025, 0.08, 0.255, -145.0, 290.0, 0.0},
-		   EmoteLoop = true,
-		   EmoteMoving = true,
-	   }},
+	   		{ Prop = "hei_prop_heist_box", PropBone = 60309, PropPlacement = {0.025, 0.08, 0.255, -145.0, 290.0, 0.0},
+		   EmoteLoop = true, EmoteMoving = true, }},
 	   ["weedbox"] = {"anim@heists@box_carry@", "idle", "Box", AnimationOptions =
 	   {
 		   Prop = "hei_prop_heist_weed_block_01",
@@ -462,45 +447,6 @@ Config = {
 		   PropPlacement = {0.19, 0.18, 0.0, 5.0, 0.0, 40.0},
 		   EmoteLoop = true,
 		   EmoteMoving = true,
-	   }},
-	   ["makeitrain"] = {"anim@mp_player_intupperraining_cash", "idle_a", "Make It Rain", AnimationOptions =
-	   {
-		   Prop = 'prop_anim_cash_pile_01',
-		   PropBone = 60309,
-		   PropPlacement = {0.0, 0.0, 0.0, 180.0, 0.0, 70.0},
-		   EmoteMoving = true,
-		   EmoteLoop = true,
-		   PtfxAsset = "scr_xs_celebration",
-		   PtfxName = "scr_xs_money_rain",
-		   PtfxPlacement = {0.0, 0.0, -0.09, -80.0, 0.0, 0.0, 1.0},
-		   PtfxInfo = Config.Languages[Config.MenuLanguage]['makeitrain'],
-		   PtfxWait = 500,
-	   }},
-	   ["camera"] = {"amb@world_human_paparazzi@male@base", "base", "Camera", AnimationOptions =
-	   {
-		   Prop = 'prop_pap_camera_01',
-		   PropBone = 28422,
-		   PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
-		   EmoteLoop = true,
-		   EmoteMoving = true,
-		   PtfxAsset = "scr_bike_business",
-		   PtfxName = "scr_bike_cfid_camera_flash",
-		   PtfxPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0},
-		   PtfxInfo = Config.Languages[Config.MenuLanguage]['camera'],
-		   PtfxWait = 200,
-	   }},
-	   ["champagnespray"] = {"anim@mp_player_intupperspray_champagne", "idle_a", "Champagne Spray", AnimationOptions =
-	   {
-		   Prop = 'ba_prop_battle_champ_open',
-		   PropBone = 28422,
-		   PropPlacement = {0.0,0.0,0.0,0.0,0.0,0.0},
-		   EmoteMoving = true,
-		   EmoteLoop = true,
-		   PtfxAsset = "scr_ba_club",
-		   PtfxName = "scr_ba_club_champagne_spray",
-		   PtfxPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
-		   PtfxInfo = Config.Languages[Config.MenuLanguage]['spraychamp'],
-		   PtfxWait = 500,
 	   }},
 	   ["joint"] = {"amb@world_human_smoking@male@male_a@enter", "enter", "Joint", AnimationOptions =
 	   {
