@@ -176,9 +176,9 @@ RegisterNetEvent('jim-consumables:Consume', function(itemName)
             if Config.Debug then print("^5Debug^7: ^3Consume^7: ^2Current ^4alcoholCount^7: ^6"..(alcoholCount + 1)) end
 			alcoholCount = alcoholCount + 1
 			if alcoholCount > 1 and alcoholCount < 4 then
-				TriggerEvent("evidence:client:SetStatus", "alcohol", 200)
+				TriggerEvent("evidence:client:SetStatus", "alcohol", 15)
 			elseif alcoholCount >= 4 then
-				TriggerEvent("evidence:client:SetStatus", "heavyalcohol", 200)
+				TriggerEvent("evidence:client:SetStatus", "heavyalcohol", 20)
                 CreateThread(function() AlienEffect() end) -- Used as overdosing/too drunk effect
             end
         end
