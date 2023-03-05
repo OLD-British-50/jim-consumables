@@ -38,13 +38,20 @@ Config = {
 		]]
 
 		--Testing effects & armor with small functionality to drugs - This may be another one left to default scripts
-		["joint"] = { 			emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
-
-		["cokebaggy"] = { 		emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { screen = "focus", effect = "stamina", widepupils = false, canOD = true } },
-		["crackbaggy"] = { 		emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { effect = "heal", widepupils = false, canOD = true } },
-		["xtcbaggy"] = { 		emote = "oxy",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "strength", widepupils = true, canOD = true } },
-		["oxy"] = { 			emote = "oxy",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { effect = "heal", widepupils = false, canOD = false } },
-		["meth"] = { 			emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "stamina", widepupils = true, canOD = true } },
+		["joint"] = { 					emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+		["weed_skumk_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+		["weed_og-kush_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+		["weed_white-widow_joint"] = { 	emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+		["weed_ak47_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+		["weed_amnesia_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+		["weed_purple-haze_joint"] = { 	emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+		["weed-gelato_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+		["weed_zkittlez_joint"] = { 	emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+		["cokebaggy"] = { 				emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { screen = "focus", effect = "stamina", widepupils = false, canOD = true } },
+		["crackbaggy"] = { 				emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { effect = "heal", widepupils = false, canOD = true } },
+		["xtcbaggy"] = { 				emote = "oxy",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "strength", widepupils = true, canOD = true } },
+		["oxy"] = { 					emote = "oxy",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { effect = "heal", widepupils = false, canOD = false } },
+		["meth"] = { 					emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "stamina", widepupils = true, canOD = true } },
 		----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 		----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
