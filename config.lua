@@ -17,18 +17,18 @@ Config = {
 		-- Default QB food and drink item override
 
 		--Effects can be applied here, like stamina on coffee for example
-		["vodka"] = { 			emote = "vodkab", 		canRun = false, 	time = math.random(5000, 6000), stress = 0, heal = 0, armor = 0, type = "alcohol", stats = { effect = "stress", time = 5000, amount = 2, thirst = math.random(10,20), canOD = true }},
-		["beer"] = { 			emote = "beer", 		canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "alcohol", stats = { thirst = math.random(10,20), canOD = true }},
-		["whiskey"] = { 		emote = "whiskey",  	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "alcohol", stats = { thirst = math.random(10,20), canOD = true }},
+	["vodka"] = { 			emote = "vodkab", 		canRun = false, 	time = math.random(5000, 6000), stress = 0, heal = 0, armor = 0, type = "alcohol", stats = { effect = "stress", time = 5000, amount = 2, thirst = math.random(10,20), canOD = true }},
+	["beer"] = { 			emote = "beer", 		canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "alcohol", stats = { thirst = math.random(10,20), canOD = true }},
+	["whiskey"] = { 		emote = "whiskey",  	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "alcohol", stats = { thirst = math.random(10,20), canOD = true }},
 
-		["sandwich"] = { 		emote = "sandwich", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-		["twerks_candy"] = { 	emote = "egobar", 		canRun = true, 		time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-		["snikkel_candy"] = { 	emote = "egobar", 		canRun = true, 		time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
-		["tosti"] = { 			emote = "sandwich", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["sandwich"] = { 		emote = "sandwich", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["twerks_candy"] = { 	emote = "egobar", 		canRun = true, 		time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["snikkel_candy"] = { 	emote = "egobar", 		canRun = true, 		time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
+	["tosti"] = { 			emote = "sandwich", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(10,20), }},
 
-		["coffee"] = { 			emote = "coffee", 		canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { effect = "stamina", time = 10000, thirst = math.random(10,20), }},
-		["water_bottle"] = { 	emote = "drink", 		canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
-		["kurkakola"] = { 		emote = "ecola", 		canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["coffee"] = { 			emote = "coffee", 		canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { effect = "stamina", time = 10000, thirst = math.random(10,20), }},
+	["water_bottle"] = { 	emote = "drink", 		canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
+	["kurkakola"] = { 		emote = "ecola", 		canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
 
 		--[[----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		-- Items that effect status changes, like bleeding can cause problems as they are all handled in their own scripts
@@ -38,20 +38,20 @@ Config = {
 		]]
 
 		--Testing effects & armor with small functionality to drugs - This may be another one left to default scripts
-		["joint"] = { 					emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
-		["weed_skunk_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
-		["weed_og-kush_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
-		["weed_white-widow_joint"] = { 	emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
-		["weed_ak47_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
-		["weed_amnesia_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
-		["weed_purple-haze_joint"] = { 	emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
-		["weed_gelato_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
-		["weed_zkittlez_joint"] = { 	emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
-		["cokebaggy"] = { 				emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { screen = "focus", effect = "stamina", widepupils = false, canOD = true } },
-		["crack_baggy"] = { 			emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { effect = "heal", widepupils = false, canOD = true } },
-		["xtcbaggy"] = { 				emote = "oxy",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "strength", widepupils = true, canOD = true } },
-		["oxy"] = { 					emote = "oxy",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { effect = "heal", widepupils = false, canOD = false } },
-		["meth"] = { 					emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "stamina", widepupils = true, canOD = true } },
+	["joint"] = { 					emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+	["weed_skunk_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+	["weed_og-kush_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+	["weed_white-widow_joint"] = { 	emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+	["weed_ak47_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+	["weed_amnesia_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+	["weed_purple-haze_joint"] = { 	emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+	["weed_gelato_joint"] = { 		emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+	["weed_zkittlez_joint"] = { 	emote = "smoke3",	time = math.random(5000, 6000), stress = math.random(12, 45), heal = 0, armor = 30, type = "drug", stats = { screen = "weed", effect = "armor", widepupils = false, canOD = false } },
+	["cokebaggy"] = { 				emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { screen = "focus", effect = "stamina", widepupils = false, canOD = true } },
+	["crack_baggy"] = { 			emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { effect = "heal", widepupils = false, canOD = true } },
+	["xtcbaggy"] = { 				emote = "oxy",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "strength", widepupils = true, canOD = true } },
+	["oxy"] = { 					emote = "oxy",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 0, type = "drug", stats = { effect = "heal", widepupils = false, canOD = false } },
+	["meth"] = { 					emote = "coke",		time = math.random(5000, 6000), stress = math.random(12, 24), heal = 0, armor = 10, type = "drug", stats = { effect = "stamina", widepupils = true, canOD = true } },
 		----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 		----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
