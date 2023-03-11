@@ -30,6 +30,10 @@ Config = {
 	["water_bottle"] = { 	emote = "drink", 		canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
 	["kurkakola"] = { 		emote = "ecola", 		canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10,20), }},
 
+	-- Prime drinks
+	["prime_grape"] = { 	emote = "prime_grape", 	canRun = false, 	time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { screen = "rampage", effect = "stamina", time = 20000, thirst = math.random(25,40), }},
+
+
 		--[[----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		-- Items that effect status changes, like bleeding can cause problems as they are all handled in their own scripts
 		-- Testing these but they may be best left handled by default scripts
@@ -544,6 +548,9 @@ Config = {
 		   EmoteLoop = true,
 		   EmoteMoving = true,
 	   }},
+	   ["prime_grape"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+			{ Prop = "brum_prime_grape", PropBone = 18905, PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+		EmoteMoving = true, EmoteLoop = true, }},
 
 	},
 }
