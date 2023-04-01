@@ -61,6 +61,42 @@ Config = {
 		----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 		----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	-- Up 'n Atom & Hornys food
+	["tripleburger"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["baconcheesemelt"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["chillidog"] = { emote = "torpedo", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["atomfries"] = { emote = "bsfries", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["chickenfillet"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["chickenhorn"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["grilledchicken"] = { emote = "sandwich", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["chickensalad"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["hunksohen"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["chickentaco"] = { emote = "torpedo", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["enchiladas"] = { emote = "torpedo", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["gazpacho"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["hornbreakfast"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["eggsbenedict"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["hashbrowns"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["sausages"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["baconroll"] = { emote = "sandwich", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["baconeggtoast"] = { emote = "sandwich", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["frenchtoast"] = { emote = "sandwich", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["frenchtoastbacon"] = { emote = "sandwich", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["hornburger"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["dblhornburger"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["baconhornburger"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["picklehornburger"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["chickenhornburger"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["dblchickenhornburger"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["icecone"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["icenugget"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["icecake"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+
+	-- Up 'n Atom & Horneys drinks
+	["atomsoda"] = { emote = "bscoke", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(45,65), }},
+	["orangotang"] = { emote = "bscoffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(45,65), }},
+	["raine"] = { emote = "bscoffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(45,65), }},
+	["junkdrink"] = { emote = "bscoffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(45,65), }},
 
 	-- Billiards food
 	["cookedcheesepie"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
