@@ -63,7 +63,7 @@ Config = {
 		----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 		-- Billiards food
-	["cookedsteakpie"] = { emote = "mp_player_inteat@burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(55,65), }},
+	["cookedsteakpie"] = { emote = "torpedo", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(55,65), }},
 
 		--Jim-Bakery-Drinks
 	["bscoffee"] = { emote = "bscoffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(55,65), }},
