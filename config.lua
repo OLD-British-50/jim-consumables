@@ -88,9 +88,12 @@ Config = {
 	["picklehornburger"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
 	["chickenhornburger"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
 	["dblchickenhornburger"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+
+	-- Atom/Hornys Desserts
 	["icecone"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
 	["icenugget"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
 	["icecake"] = { emote = "burger", canRun = true, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 5, armor = 0, type = "food", stats = { hunger = math.random(45,65), }},
+	["creamyshake"] = { emote = "bscoke", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(45,65), }},
 
 	-- Up 'n Atom & Horneys drinks
 	["atomsoda"] = { emote = "bscoke", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(45,65), }},
