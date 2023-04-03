@@ -133,14 +133,14 @@ Config = {
 	["irishcoffee"] = { emote = "beer", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
 
 	-- Billiards soft drinks
-	["glass_cocacola"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
-	["glass_pepsi"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
-	["glass_drpepper"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
-	["glass_mountaindew"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
-	["glass_lemonade"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
-	["glass_water"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
-	["cupcoffee"] = { emote = "coffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
-	["cuptea"] = { emote = "coffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
+	["glass_cocacola"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["glass_pepsi"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["glass_drpepper"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["glass_mountaindew"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["glass_lemonade"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["glass_water"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["cupcoffee"] = { emote = "coffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["cuptea"] = { emote = "coffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
 
 
 	--Jim-Bakery-Drinks
