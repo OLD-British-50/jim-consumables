@@ -661,5 +661,53 @@ Config = {
 				EmoteMoving = true,
 				EmoteLoop = true,
 		}},
+		["cocacola"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+		{
+				Prop = "prop_ecola_can",
+				PropBone = 18905,
+				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true,
+				EmoteLoop = true,
+		}},
+		["pepsi"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+		{
+				Prop = "prop_ld_can_01",
+				PropBone = 18905,
+				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true,
+				EmoteLoop = true,
+		}},
+		["drpepper"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+		{
+				Prop = "prop_ld_can_01b",
+				PropBone = 18905,
+				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true,
+				EmoteLoop = true,
+		}},
+		["mntndew"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+		{
+				Prop = "prop_orang_can_01",
+				PropBone = 18905,
+				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true,
+				EmoteLoop = true,
+		}},
+		["lemonade"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+		{
+				Prop = "v_res_tt_can03",
+				PropBone = 18905,
+				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true,
+				EmoteLoop = true,
+		}},
+		["water"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+		{
+				Prop = "ba_prop_club_water_bottle",
+				PropBone = 18905,
+				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true,
+				EmoteLoop = true,
+		}},
 	},
 }
