@@ -11,7 +11,7 @@ Config = {
 	
 	Notify = "qb",
 	
-	UseProgbar = true,
+	UseProgbar = false,
 
 	Consumables = {
 		-- Default QB food and drink item override
