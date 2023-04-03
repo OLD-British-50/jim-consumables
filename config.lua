@@ -631,16 +631,24 @@ Config = {
 	   }},
 	   ["prime_grape"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
 		{
-				Prop = "brum_prime_grape", 
-				PropBone = 18905, 
+				Prop = "brum_prime_grape",
+				PropBone = 18905,
 				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
 				EmoteMoving = true,
-				EmoteLoop = true, 
+				EmoteLoop = true,
 		}},
 		["soft_drink_glass"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
 		{
-				Prop = "prop_pint_glass_tall", 
-				PropBone = 18905, 
+				Prop = "prop_pint_glass_tall",
+				PropBone = 18905,
+				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true,
+				EmoteLoop = true,
+		}},
+		["shot_glass"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+		{
+				Prop = "prop_shot_glass",
+				PropBone = 18905,
 				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
 				EmoteMoving = true,
 				EmoteLoop = true,
