@@ -142,6 +142,14 @@ Config = {
 	["cupcoffee"] = { emote = "coffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
 	["cuptea"] = { emote = "coffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
 
+	-- Branded soft drinks
+	["cocacola"] = { emote = "cocacola", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["pepsi"] = { emote = "pepsi", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["drpepper"] = { emote = "drpepper", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["mountaintdew"] = { emote = "mntndew", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["lemonade"] = { emote = "lemonade", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+	["water"] = { emote = "water", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
+
 
 	--Jim-Bakery-Drinks
 	["bscoffee"] = { emote = "bscoffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(45,65), }},
