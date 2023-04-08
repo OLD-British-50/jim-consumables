@@ -192,6 +192,11 @@ Config = {
 	["casino_luckypotion"] = { emote = "beer1", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(25, 40), }},
 	["casino_coffee"] = { emote = "bscoffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { effect = "luck", time = 10000, amount = 5, thirst = math.random(25, 40), }},
 
+	-- Easter event items
+	["hersheysbar"] = { emote = "burger", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(25, 40), }},
+	["mandms"] = { emote = "burger", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(25, 40), }},
+	["peanutmandms"] = { emote = "burger", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(25, 40), }},
+
 		--[[Example item
 		["heartstopper"] = {
 			emote = "burger", 							-- Select an emote from below, it has to be in here
@@ -712,6 +717,30 @@ Config = {
 		["water"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
 		{
 				Prop = "ba_prop_club_water_bottle",
+				PropBone = 18905,
+				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true,
+				EmoteLoop = true,
+		}},
+		["mandms"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+		{
+				Prop = "prop_choc_pq",
+				PropBone = 18905,
+				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true,
+				EmoteLoop = true,
+		}},
+		["peanutmandms"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+		{
+				Prop = "prop_candy_pqs",
+				PropBone = 18905,
+				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				EmoteMoving = true,
+				EmoteLoop = true,
+		}},
+		["hersheysbar"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
+		{
+				Prop = "prop_choc_ego",
 				PropBone = 18905,
 				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
 				EmoteMoving = true,
