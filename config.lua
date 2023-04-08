@@ -132,6 +132,14 @@ Config = {
 	["bloodymary"] = { emote = "shot_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
 	["irishcoffee"] = { emote = "coffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
 
+	-- Beers
+	["ambeer"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
+	["piswasser"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
+	["logger"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
+	["dusche"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
+	["piswasser2"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
+	["piswasser3"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(10, 20), canOD = true }},
+
 	-- Billiards soft drinks
 	["glass_cocacola"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
 	["glass_pepsi"] = { emote = "soft_drink_glass", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { thirst = math.random(20, 40), canOD = false }},
