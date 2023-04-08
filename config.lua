@@ -725,24 +725,24 @@ Config = {
 		["mandms"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
 		{
 				Prop = "prop_choc_pq",
-				PropBone = 18905,
-				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				PropBone = 60309,
+		   		PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
 				EmoteMoving = true,
 				EmoteLoop = true,
 		}},
 		["peanutmandms"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
 		{
 				Prop = "prop_candy_pqs",
-				PropBone = 18905,
-				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				PropBone = 60309,
+		   		PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
 				EmoteMoving = true,
 				EmoteLoop = true,
 		}},
 		["hersheysbar"] = {"mp_player_intdrink", "loop_bottle", "E-cola", AnimationOptions =
 		{
 				Prop = "prop_choc_ego",
-				PropBone = 18905,
-				PropPlacement = {0.12, 0.008, 0.03, 240.0, -60.0},
+				PropBone = 60309,
+		   		PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
 				EmoteMoving = true,
 				EmoteLoop = true,
 		}},
