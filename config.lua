@@ -193,9 +193,9 @@ Config = {
 	["casino_coffee"] = { emote = "bscoffee", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "drink", stats = { effect = "luck", time = 10000, amount = 5, thirst = math.random(25, 40), }},
 
 	-- Easter event items
-	["hersheysbar"] = { emote = "burger", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(25, 40), }},
-	["mandms"] = { emote = "burger", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(25, 40), }},
-	["peanutmandms"] = { emote = "burger", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(25, 40), }},
+	["hersheysbar"] = { emote = "hersheysbar", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(15, 25), }},
+	["mandms"] = { emote = "mandms", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(15, 25), }},
+	["peanutmandms"] = { emote = "peanutmandms", canRun = false, time = math.random(5000, 6000), stress = math.random(2, 4), heal = 0, armor = 0, type = "food", stats = { hunger = math.random(15, 25), }},
 
 		--[[Example item
 		["heartstopper"] = {
